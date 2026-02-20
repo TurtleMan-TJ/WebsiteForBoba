@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Barrio&family=Limelight&display=swap');
+
+body {
+    background: #74c2b3;
+    font-family: "Limelight", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+img {
+    width: 220px;
+    margin-top: 20px;
+}
+
+.stars {
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.star {
+    color: gray;
+    transition: 0.2s;
+}
+
+.star:hover,
+.star.active {
+    color: gold;
+}
+
+#result {
+    margin-top: 15px;
+    font-size: 18px;
+}
